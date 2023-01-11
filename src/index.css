@@ -8,4 +8,36 @@
     * {
         @apply text-abbey;
     }
+
+    h1 {
+        @apply font-serif font-bold text-[32px] leading-[42px]
+    }
+
+    h2 {
+        @apply font-serif font-light text-[28px] leading-[37px]
+    }
+
+    h3 {
+        @apply font-serif font-bold text-[24px] leading-[32px]
+    }
+
+    h4 {
+        @apply font-serif font-bold text-[20px] leading-[26px]
+    }
+
+    h5 {
+        @apply font-serif font-bold text-[16px] leading-[21px]
+    }
+
+    h6 {
+        @apply font-serif font-bold text-[14px] leading-[18px] text-burntSienna
+    }
+
+    p {
+        @apply font-serif text-[14px] leading-[24px]
+    }
+
+    code {
+        @apply font-mono text-[14px] leading-[24px]
+    }
 }

@@ -25,6 +25,14 @@ module.exports = {
         'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
         'serif': ['Roboto Slab', ...defaultTheme.fontFamily.serif],
       },
+      fontSize: {
+        xs: ['13px', '15px'],
+        sm: ['14px', '16px'],
+        base: ['15px', '18px']
+      },
+      letterSpacing: {
+        wide: '2px'
+      }
     },
   },
   plugins: [],
